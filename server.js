@@ -16,6 +16,7 @@ app.post("/usuarios", async (req, res) => {
       email: req.body.email,
       name: req.body.name,
       age: req.body.age,
+      dataNascimento: req.body.dataNascimento,
     },
   });
 
@@ -46,6 +47,7 @@ app.put("/usuarios/:id", async (req, res) => {
       email: req.body.email,
       name: req.body.name,
       age: req.body.age,
+      dataNascimento: req.body.dataNascimento,
     },
   });
 
